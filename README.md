@@ -1,6 +1,9 @@
 # CalcCalender
 
-Usage: python3 calenderCalc.py [year/month/day] [day_count]
+
+[Usage] 
+
+python3 calenderCalc.py [year/month/day] [day_count]
 
 
 [EXAMPLE]
