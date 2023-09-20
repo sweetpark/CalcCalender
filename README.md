@@ -1,5 +1,11 @@
 # CalcCalender
 
+[pre]
+
+pip3 install pytimekr
+
+pip3 install pyinstller
+
 
 [Usage] 
 
