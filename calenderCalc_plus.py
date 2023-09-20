@@ -70,7 +70,9 @@ def excludeWeekend(holiday_list,timeCalc,weekDay,count):
         if weekDay < 5:
             count = count - 1
             if count == 0:
+                print()
                 print(timeCalc)
+                print()
                 break
             timeCalc=timeCalc+datetime.timedelta(days=1)       
             weekDay=timeCalc.weekday()
@@ -85,9 +87,9 @@ def main():
     while True:
         try:
             #input
-            print(" ** if you want program exit : write \"shutdown\" ** ")
+            print(" ** if you want program exit : write \"shutdown\" or \"sd\" ** ")
             date_tmp=input("Date (ex 2023/09/19): ")
-            if (date_tmp=="shutdown"):
+            if date_tmp=="shutdown" or date_tmp=="sd":
                 break
             split_date=list(date_tmp.split('/'))
             if len(split_date) != 3:
